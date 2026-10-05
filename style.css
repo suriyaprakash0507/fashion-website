@@ -1,0 +1,124 @@
+nav{
+    background-color: black;
+    
+    padding: 20px;
+}
+
+h1{
+    
+    color:orange ;
+    display: inline;
+
+}
+li,ul{
+    
+    color: wheat;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+.carts{
+    background-color: darkgoldenrod;
+    border-width: 2px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 5px;
+}
+ul{
+    margin-left: 50%;
+}
+
+.hero{
+
+      height: 90vh;
+      background:url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1200&auto=format&fit=crop') center/cover;
+      display:flex;
+       justify-content:center;
+       align-items:center;
+       text-align:center;
+       color:white;
+
+}
+.hero-container{
+    background:rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+.hero button{
+    background-color:orange;
+    color: wheat;
+    padding: 12px,30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+
+}
+.hero button:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+.products{
+    padding: 60px,40px;
+    text-align: center;
+
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px; 
+}
+.card{
+      background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+.card:hover{
+     transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+.card-content{
+    text-align: center;
+    padding: 20px;
+}
+.card-content h3{
+    padding: 20px;
+}
+.price{
+    background-color: wheat;
+    color: green;
+    margin-bottom: 15px;
+}
+.card-content button{
+    padding: 10px,20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+.card-content button:hover{
+    background:orange;
+}
+.offers{
+    background-color:orange;
+    color: wheat;
+    text-align: center;
+}
+
+.zone{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
